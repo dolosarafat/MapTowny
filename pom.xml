@@ -29,13 +29,13 @@
         <jdk.version>${java.version}</jdk.version>
     </properties>
 
-    <distributionManagement>
-        <repository>
-            <id>glare-nexus</id>
-            <name>Towny</name>
-            <url>https://repo.glaremasters.me/repository/towny/</url>
-        </repository>
-    </distributionManagement>
+<distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/DolosArafat/AfkPool</url>
+    </repository>
+  </distributionManagement>
 
     <build>
         <plugins>
